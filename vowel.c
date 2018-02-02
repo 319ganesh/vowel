@@ -1,9 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
+
 main()
 {
 char choice;
-clrscr();
+
 printf("\n enter the character:");
 scanf("%c",&choice);
 switch(choice)
@@ -27,6 +27,6 @@ default:
 printf("\n %c is a constant");
 break;
 }
-getch();
+
 return 0;
 }
